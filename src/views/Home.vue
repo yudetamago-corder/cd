@@ -20,7 +20,7 @@
       return{
         newTodo:"",
         todos:[
-          "起床",
+          "起床"
         ],
         estra:{
           name:"2017",
@@ -52,9 +52,12 @@
  th{
    width:20%;
    background:#e6e6e6;
- },
+ }
  td{
    width:20%;
    background:#f2f2f2;
+ }
+ {
+   color: red;
  }
  </style>
