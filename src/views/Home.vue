@@ -8,7 +8,7 @@
     </table>
     <h1>今日やる事</h1>
     <ul>
-      <li v-for="data in todos" :key="data.key">{{todo}}</li>
+      <li v-for="todo in todos" :key="todo.key">{{todo}}</li>
     </ul>
     <input type="text" v-model="newTodo">
     <input type="submit" value="add" @click="addTodo()">
@@ -57,7 +57,7 @@
    width:20%;
    background:#f2f2f2;
  }
- {
+li{
    color: red;
  }
  </style>
